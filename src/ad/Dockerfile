@@ -12,7 +12,7 @@ RUN ./gradlew downloadRepos
 
 COPY . .
 
-COPY ./pb ./proto   #replaced demo.proto to proto 
+COPY ./pb ./proto   
 
 RUN chmod +x ./gradlew
 
